@@ -117,7 +117,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
 
   admin_ssh_key {
     username            = "terraform"
-    public_key          = file("~/Documents/Terraform/Git/Linux-hosts/.ssh/id_rsa.pub")
+    public_key          = file("~/Documents/Git/Terraform/Linux-hosts/.ssh/id_rsa.pub")
   }
 
   os_disk {
